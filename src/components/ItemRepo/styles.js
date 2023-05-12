@@ -14,6 +14,14 @@ export const ItemContainer = styled.div`
         margin-bottom:20px;
     }
 
+    a{
+        text-decoration: none;
+    }
+
+    .ver-repo{
+        color: #2f81f7;
+    }
+
     a.remover {
         color: #FF0000;
         margin-top:20px;

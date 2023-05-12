@@ -21,4 +21,8 @@ export const InputContainer = styled.div`
         font-size: 20px
     }
 
+    textarea:focus, input:focus {
+        outline: 0;
+    }
+
 `

@@ -5,7 +5,10 @@ export const ButtonContainer = styled.button`
     background-color: #FAFAFA;
     border: 1px solid #FAFAFA;
     border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
 
+    min-height: 62px;
     height: 62px;
     width: 80%;
 
@@ -14,6 +17,7 @@ export const ButtonContainer = styled.button`
     &: hover {
         background-color: #FAFAFA40;
         cursor: pointer;
+        color: #FFFFFF;
     }
 
 `
